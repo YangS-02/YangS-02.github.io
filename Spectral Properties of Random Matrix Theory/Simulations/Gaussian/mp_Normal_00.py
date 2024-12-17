@@ -2,6 +2,8 @@ import numpy as np
 from scipy.linalg import *
 import matplotlib.pyplot as plt
 
+# This is the starter code given by Prof. Alex Shkolnik.
+
 c = 0.5
 a = (1 - np.sqrt(c)) ** 2
 b = (1 + np.sqrt(c)) ** 2
