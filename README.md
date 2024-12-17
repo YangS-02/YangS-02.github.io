@@ -1,6 +1,15 @@
 # Shuai Yang’s Project Portfolio
 Welcome to my project portfolio! This page highlights key academic and personal projects I've worked on, ranging from data structure implementation to statistical modeling and spectral analysis. Each project highlights my ability to combine theoretical understanding with practical problem-solving. Below, you’ll find detailed descriptions and links to project files. Thank you for visiting, and I hope you enjoy exploring my work!
+<div align="center">
+Table of Content:
 
+| **Contents**                                                                 |
+|:----------------------------------------------------------------------------:|
+| [Binary Search Tree Data Structure Implementation](#binary-search-tree-data-structure-implementation) |
+| [Spectral Properties of Random Matrices](#spectral-properties-of-random-matrices) |
+| [Contacts](#contacts)  
+
+</div>
 <br>
 
 ## Binary Search Tree Data Structure Implementation
@@ -52,7 +61,7 @@ This [repository](https://github.com/YangS-02/YangS-02.github.io) contains Pytho
 Acknowledgments
 Special thanks to Professor Alexander Shkolnik, Assistant Professor at UCSB, for providing foundational guidance and starter code for this project. His insights on random matrix theory and its applications were instrumental in shaping this work.
 
-
+## Contacts
 
 
 
