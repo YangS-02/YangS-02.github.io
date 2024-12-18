@@ -1,15 +1,12 @@
 # Shuai Yang’s Project Portfolio
 Welcome to my project portfolio! This page highlights key academic and personal projects I've worked on, ranging from data structure implementation to statistical modeling and spectral analysis. Each project highlights my ability to combine theoretical understanding with practical problem-solving. Below, you’ll find detailed descriptions and links to project files. Thank you for visiting, and I hope you enjoy exploring my work!
 
-<div align="center">
-
 | **Table of Contents**                                                                 |
 |:----------------------------------------------------------------------------:|
 | [Binary Search Tree Data Structure Implementation](#binary-search-tree-data-structure-implementation) |
 | [Spectral Properties of Random Matrices](#spectral-properties-of-random-matrices) |
 | [Contacts](#contacts)  |
 
-</div>
 
 <br>
 
@@ -65,7 +62,7 @@ This [folder](https://github.com/YangS-02/YangS-02.github.io/tree/main/Spectral%
    - Validates the total mass under the density curve;
    - Produces histograms of eigenvalues and overlays the Marchenko-Pastur density for comparison.
    - Key Result:
-      - 
+      - When the degrees of freedom is small (close to 2), the eigenvalues tend to cluster near zero, leading to deviations from the Marchenko-Pastur distribution. This makes MP unreliable for such data.
 * Simulation of Marchenko-Pastur Law with a one-factor model:
 ### Some words:
 This project is still a work in progress as I continue to refine my analysis. The code and results presented here represent key components of my methodology, showcasing how I generate, simulate, and analyze random covariance matrices. However, only selected portions of the code and preliminary results are included to provide a focused overview.
