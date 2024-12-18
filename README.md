@@ -54,11 +54,11 @@ The system also supports adding, managing, and removing cars efficiently while m
 ### Overview:
 This [folder](https://github.com/YangS-02/YangS-02.github.io/tree/main/Spectral%20Properties%20of%20Random%20Matrix%20Theory) contains Python code exploring the Marchenko-Pastur distribution and its application to random matrix theory and stock return modeling. It includes simulations comparing distributions (e.g., Student’s t-distribution) and evaluating their impact on key results.
 ### Description:
-* Simulation of Marchenko-Pastur Law with Normal entries:
+* Simulation of Marchenko-Pastur Law with [Normal entries](https://github.com/YangS-02/YangS-02.github.io/blob/main/Spectral%20Properties%20of%20Random%20Matrix%20Theory/Simulations/Marchenko_Pastur_Normal.py):
    -
-* Simulation of Marchenko-Pastur Law with Student-t entries:
+* Simulation of Marchenko-Pastur Law with [Student-t entries](https://github.com/YangS-02/YangS-02.github.io/blob/main/Spectral%20Properties%20of%20Random%20Matrix%20Theory/Simulations/Marchenko_Pastur_Student.py):
    -
-* Simulation of Marchenko-Pastur Law with Spike model for stock returns Y = beta x^T + E:
+* Simulation of Marchenko-Pastur Law with a one-factor model:
 Acknowledgments
 Special thanks to Professor Alexander Shkolnik, Assistant Professor at UCSB, for providing foundational guidance and starter code for this project. His insights on random matrix theory and its applications were instrumental in shaping this work.
 
