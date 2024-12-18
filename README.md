@@ -13,7 +13,6 @@ Welcome to my project portfolio! This page highlights key academic and personal 
 ## Binary Search Tree Data Structure Implementation
 ### Overview:
 This project implements a Binary Search Tree (BST) to manage cars for a used car dealership. Each car has a defined make, model, year, and price. Cars are organized in the BST where nodes are sorted lexicographically by make and model. Within each node, cars with the same make and model are stored in a Python list, preserving their insertion order.
-
 The system also supports adding, managing, and removing cars efficiently while maintaining the BST property. Thorough testing ensures correctness and robustness of the implementation.
 ### Components:
 1. [Car](https://github.com/YangS-02/YangS-02.github.io/blob/main/Binary%20Search%20Tree%20Data%20Structure%20Implementation/Car.py
@@ -42,7 +41,6 @@ The system also supports adding, managing, and removing cars efficiently while m
 4. [Test file](https://github.com/YangS-02/YangS-02.github.io/blob/main/Binary%20Search%20Tree%20Data%20Structure%20Implementation/testFile.py):
    - Tests cases to ensure all functionalities work correctly.
 ### Reflections
-
 - I gained a thorough understanding of how BSTs operate, including node insertion, traversal, and deletion while maintaining the BST property.
 - I improved my ability to organize code using class hierarchies and encapsulation.
 - I improved my debugging skills by systematically isolating issues and ensuring the correctness of BST operations.
