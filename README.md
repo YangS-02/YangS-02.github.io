@@ -67,7 +67,7 @@ This [folder](https://github.com/YangS-02/YangS-02.github.io/tree/main/Spectral%
    - Produces histograms of eigenvalues and overlays the Marchenko-Pastur density for comparison.
    - Key Result:
       - When the degrees of freedom is small (close to 2), the eigenvalues tend to cluster near zero, leading to deviations from the Marchenko-Pastur distribution. This makes MP unreliable for such data.
-* Simulation of Marchenko-Pastur Law with a [one-factor model](https://github.com/YangS-02/YangS-02.github.io/blob/main/Spectral%20Properties%20of%20Random%20Matrix%20Theory/Simulations/Marchenko_Pastur_spike.py)Marchenko_Pastur_Spike.py):
+* Simulation of Marchenko-Pastur Law with a [one-factor model](https://github.com/YangS-02/YangS-02.github.io/blob/main/Spectral%20Properties%20of%20Random%20Matrix%20Theory/Simulations/marchenko_Pastur_spike.py):
    - Constructs random matrices based on:
       - Let $\beta\in\mathbb{R}^{p}$ be a fixed vector representing the sensitivity of an asset’s return to a single market factor,
       - Let $x\in\mathbb{R}$ be a random variable representing the market factor and distributed as $\mathcal{N}(0,\,\sigma_x^{2})$;
