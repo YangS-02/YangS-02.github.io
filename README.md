@@ -64,6 +64,12 @@ This [folder](https://github.com/YangS-02/YangS-02.github.io/tree/main/Spectral%
    - Key Result:
       - When the degrees of freedom is small (close to 2), the eigenvalues tend to cluster near zero, leading to deviations from the Marchenko-Pastur distribution. This makes MP unreliable for such data.
 * Simulation of Marchenko-Pastur Law with a one-factor model:
+   - Constructs random matrices based on:
+      - Let $\beta\in\mathbb{R}^{p}$ be a fixed vector representing the sensitivity of an asset’s return to a single market factor,
+      - Let $x\in\mathbb{R}$ be a random variable representing the market factor and distributed as $\mathcal{N}(0,\,\sigma_x^{2})$;
+      - Let $\epsilon\in\mathbb{R}^{p}$ be the a random vector representing random returns for each stock, and is distributed as $\mathcal{N}(0,\,\sigma_\epsilon^{2})$;
+      - Consider $x_t$ to be one realization of the market factor at time $t$, where $t=1,2,\dots ,n$.  The sensitivities of assets’ return to the market factor remains constant across time. Random returns are distributed as $\mathcal{N}(0,\,\sigma_\epsilon^{2})$ at each time. Thus, $y_{it}=\beta_{i} x_t+\epsilon_{it}$. Now, if we take $n$ Independent and identically distributed copies of $y_j$ and organize them into a matrix $Y\in\mathbb{R}^{n\times p}$, with each column corresponds to an independent realization of $y_j$:
+
 ### Some words:
 This project is still a work in progress as I continue to refine my analysis. The code and results presented here represent key components of my methodology, showcasing how I generate, simulate, and analyze random covariance matrices. However, only selected portions of the code and preliminary results are included to provide a focused overview.
 ### Acknowledgments
