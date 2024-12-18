@@ -7,7 +7,7 @@ Welcome to my project portfolio! This page highlights key academic and personal 
 |:----------------------------------------------------------------------------:|
 | [Binary Search Tree Data Structure Implementation](#binary-search-tree-data-structure-implementation) |
 | [Spectral Properties of Random Matrices](#spectral-properties-of-random-matrices) |
-| [Contacts](#contacts)  
+| [Contacts](#contacts)  |
 
 </div>
 
@@ -64,6 +64,8 @@ This [folder](https://github.com/YangS-02/YangS-02.github.io/tree/main/Spectral%
    - Constructs random matrices based on given degree of freedom, number of features, and aspect ratio;
    - Validates the total mass under the density curve;
    - Produces histograms of eigenvalues and overlays the Marchenko-Pastur density for comparison.
+   - Key Result:
+      - 
 * Simulation of Marchenko-Pastur Law with a one-factor model:
 ### Some words:
 This project is still a work in progress as I continue to refine my analysis. The code and results presented here represent key components of my methodology, showcasing how I generate, simulate, and analyze random covariance matrices. However, only selected portions of the code and preliminary results are included to provide a focused overview.
