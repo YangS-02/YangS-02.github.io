@@ -67,7 +67,7 @@ This [folder](https://github.com/YangS-02/YangS-02.github.io/tree/main/Spectral%
    - Produces histograms of eigenvalues and overlays the Marchenko-Pastur density for comparison.
    - Key Result:
       - When the degrees of freedom is small (close to 2), the eigenvalues tend to cluster near zero, leading to deviations from the Marchenko-Pastur distribution. This makes MP unreliable for such data.
-* Simulation of Marchenko-Pastur Law with a [one-factor model](https://github.com/YangS-02/YangS-02.github.io/blob/main/Spectral%20Properties%20of%20Random%20Matrix%20Theory/Simulations/marchenko_Pastur_spike.py):
+* Simulation of Marchenko-Pastur Law with a [one-factor model](https://github.com/YangS-02/YangS-02.github.io/blob/main/Spectral%20Properties%20of%20Random%20Matrix%20Theory/Simulations/Marchenko_Pastur_Spike.py):
    - Constructs random matrices based on:
       - Let $\beta\in\mathbb{R}^{p}$ be a fixed vector representing the sensitivity of an asset’s return to a single market factor,
       - Let $x\in\mathbb{R}$ be a random variable representing the market factor and distributed as $\mathcal{N}(0,\,\sigma_x^{2})$;
@@ -81,8 +81,10 @@ This [folder](https://github.com/YangS-02/YangS-02.github.io/tree/main/Spectral%
    - Key Results:
       - The bulk of the eigenvalues follows the Marchenko-Pastur (MP) law, resembling the eigenvalue distribution of empirical covariance matrix of noise;
       - The entries of the leading eigenvector (or the spike) align well with the normalized signal direction $\frac{\beta}{||\beta||}$
-      - 
-
+### Reflections
+- I gained a solid understanding of the Marchenko-Pastur (MP) law;
+- I investigated how heavy-tailed noise (modeled using the Student-t distribution) deviates from the classical Gaussian case;
+- I explored how introducing a low-rank "signal" (spike) into a high-dimensional noise matrix influences the spectral properties.
 ### Some words:
 This project is still a work in progress as I continue to refine my analysis. The code and results presented here represent key components of my methodology, showcasing how I generate, simulate, and analyze random covariance matrices. However, only selected portions of the code and preliminary results are included to provide a focused overview.
 ### Acknowledgments
