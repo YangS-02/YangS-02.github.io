@@ -42,6 +42,7 @@ The system also supports adding, managing, and removing cars efficiently while m
 4. [Test file](https://github.com/YangS-02/YangS-02.github.io/blob/main/Binary%20Search%20Tree%20Data%20Structure%20Implementation/testFile.py):
    - Tests cases to ensure all functionalities work correctly.
 ### Reflections
+
 - I gained a thorough understanding of how BSTs operate, including node insertion, traversal, and deletion while maintaining the BST property.
 - I improved my ability to organize code using class hierarchies and encapsulation.
 - I improved my debugging skills by systematically isolating issues and ensuring the correctness of BST operations.
