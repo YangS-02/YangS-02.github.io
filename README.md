@@ -70,18 +70,18 @@ This [folder](https://github.com/YangS-02/YangS-02.github.io/tree/main/Spectral%
       - When the degrees of freedom is small (close to 2), the eigenvalues tend to cluster near zero, leading to deviations from the Marchenko-Pastur distribution. This makes MP unreliable for such data.
 * Simulation of Marchenko-Pastur Law with a [one-factor model](https://github.com/YangS-02/YangS-02.github.io/blob/main/Spectral%20Properties%20of%20Random%20Matrix%20Theory/Simulations/Marchenko_Pastur_Spike.py):
    - Constructs random matrices based on:
-      - Let $\beta\in\mathbb{R}^{p}$ be a fixed vector representing the sensitivity of an asset’s return to a single market factor,
-      - Let $x\in\mathbb{R}$ be a random variable representing the market factor and distributed as $\mathcal{N}(0,\,\sigma_x^{2})$;
-      - Let $\epsilon\in\mathbb{R}^{p}$ be the a random vector representing random returns for each stock, and is distributed as $\mathcal{N}(0,\,\sigma_\epsilon^{2})$;
-      - Consider $x_t$ to be one realization of the market factor at time $t$, where $t=1,2,\dots ,n$.  The sensitivities of assets’ return to the market factor remains constant across time. Random returns are distributed as $\mathcal{N}(0,\,\sigma_\epsilon^{2})$ at each time. Thus, $y_{it}=\beta_{i} x_t+\epsilon_{it}$. Now, if we take $n$ Independent and identically distributed copies of $y_j$ and organize them into a matrix $Y\in\mathbb{R}^{n\times p}$, with each column corresponds to an independent realization of $y_j$: ![Description](Others/RM.png "Matrix $Y\in\mathbb{R}^{n\times p}$")
+      - Let beta be a fixed vector representing the sensitivity of an asset’s return to a single market factor,
+      - Let x be a random variable representing the market factor and be Gaussian distributed;
+      - Let epsilon be the a random vector representing random returns for each stock, and is Gaussian distributed;
+      - Consider x_t to be one realization of the market factor at time t, where t=1,2,...,n.  The sensitivities of assets’ return to the market factor remains constant across time. . Thus, y_it=\beta_i x_t+epsilon_it. Now, if we take n Independent and identically distributed copies of y and organize them into a matrix Y, with each column corresponds to an independent realization of y: ![Description](Others/RM.png "Matrix $Y\in\mathbb{R}^{n\times p}$")
    - Computes the eigenvalues of the empirical covariance matrix;
    - Implements Marchenko-Pastur density;
    - Validates the total mass under the density curve;
    - Produces histograms of eigenvalues and overlays the Marchenko-Pastur density for comparison.
-   - Produces histograms of the entries of the leading eigenvector of the empirical covariance matrix overlaid with entries of normalized vector $\frac{\beta}{||\beta||}$, with additional statistics displayed on the plot for clarity.
+   - Produces histograms of the entries of the leading eigenvector of the empirical covariance matrix overlaid with entries of normalized beta vector , with additional statistics displayed on the plot for clarity.
    - Key Results:
       - The bulk of the eigenvalues follows the Marchenko-Pastur (MP) law, resembling the eigenvalue distribution of empirical covariance matrix of noise;
-      - The entries of the leading eigenvector (or the spike) align well with the normalized signal direction $\frac{\beta}{||\beta||}$
+      - The entries of the leading eigenvector (or the spike) align well with the normalized signal direction (normalized beta direction).
 ### Reflections
 - I gained a solid understanding of the Marchenko-Pastur (MP) law;
 - I investigated how heavy-tailed noise (modeled using the Student-t distribution) deviates from the classical Gaussian case;
