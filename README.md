@@ -85,6 +85,7 @@ This [folder](https://github.com/YangS-02/YangS-02.github.io/tree/main/Spectral%
 - I gained a solid understanding of the Marchenko-Pastur (MP) law;
 - I investigated how heavy-tailed noise (modeled using the Student-t distribution) deviates from the classical Gaussian case;
 - I explored how introducing a low-rank "signal" (spike) into a high-dimensional noise matrix influences the spectral properties.
+In general, this project has strengthened my problem-solving, programming, and analytical skills, all of which are critical for tackling high-dimensional data in both academic and professional settings.
 ### Some words:
 This project is still a work in progress as I continue to refine my analysis. The code and results presented here represent key components of my methodology, showcasing how I generate, simulate, and analyze random covariance matrices. However, only selected portions of the code and preliminary results are included to provide a focused overview.
 ### Acknowledgments
