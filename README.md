@@ -49,8 +49,10 @@ The system also supports adding, managing, and removing cars efficiently while m
 <br>
 
 ## Spectral Properties of Random Matrices
+
 ### Overview:
 This [folder](https://github.com/YangS-02/YangS-02.github.io/tree/main/Spectral%20Properties%20of%20Random%20Matrix%20Theory) contains Python code exploring the Marchenko-Pastur distribution and its application to random matrix theory and stock return modeling. It includes simulations comparing distributions (e.g., Student’s t-distribution) and evaluating their impact on key results.
+
 ### Description:
 * Simulation of Marchenko-Pastur Law with [Normal entries](https://github.com/YangS-02/YangS-02.github.io/blob/main/Spectral%20Properties%20of%20Random%20Matrix%20Theory/Simulations/Marchenko_Pastur_Normal.py):
    - Constructs random matrices based on given variance, number of features, and aspect ratio;
@@ -71,7 +73,7 @@ This [folder](https://github.com/YangS-02/YangS-02.github.io/tree/main/Spectral%
       - Let beta be a fixed vector representing the sensitivity of an asset’s return to a single market factor,
       - Let x be a random variable representing the market factor and be Gaussian distributed;
       - Let epsilon be the a random vector representing random returns for each stock, and is Gaussian distributed;
-      - Consider x_t to be one realization of the market factor at time t, where t=1,2,...,n.  The sensitivities of assets’ return to the market factor remains constant across time. . Thus, y_it=\beta_i x_t+epsilon_it. Now, if we take n Independent and identically distributed copies of y and organize them into a matrix Y, with each column corresponds to an independent realization of y: ![Description](Others/RM.png "Matrix $Y\in\mathbb{R}^{n\times p}$")
+      - Consider x_t to be one realization of the market factor at time t, where t=1,2,...,n. The sensitivities of assets’ return to the market factor remains constant across time. Thus, y_t=beta x_t+epsilon_t. Now, if we take n Independent and identically distributed copies of y and organize them into a matrix Y, with each column corresponds to an independent realization of y: ![Description](Others/RM.png "Matrix $Y\in\mathbb{R}^{n\times p}$")
    - Computes the eigenvalues of the empirical covariance matrix;
    - Implements Marchenko-Pastur density;
    - Validates the total mass under the density curve;
@@ -80,13 +82,16 @@ This [folder](https://github.com/YangS-02/YangS-02.github.io/tree/main/Spectral%
    - Key Results:
       - The bulk of the eigenvalues follows the Marchenko-Pastur (MP) law, resembling the eigenvalue distribution of empirical covariance matrix of noise;
       - The entries of the leading eigenvector (or the spike) align well with the normalized signal direction (normalized beta direction).
+
 ### Reflections
 - I gained a solid understanding of the Marchenko-Pastur (MP) law;
 - I investigated how heavy-tailed noise (modeled using the Student-t distribution) deviates from the classical Gaussian case;
 - I explored how introducing a low-rank "signal" (spike) into a high-dimensional noise matrix influences the spectral properties.
 In general, this project has strengthened my problem-solving, programming, and analytical skills, all of which are critical for tackling high-dimensional data in both academic and professional settings.
+
 ### Some words:
 This project is still a work in progress as I continue to refine my analysis. The next step is to investigate financial data and compare the results. The code and results presented here represent key components of my methodology, showcasing how I generate, simulate, and analyze random covariance matrices. However, only selected portions of the code and preliminary results are included to provide a focused overview.
+
 ### Acknowledgments
 Special thanks to Professor Alexander Shkolnik, Assistant Professor at UCSB, for providing foundational guidance and starter code for this project. His insights on random matrix theory and its applications were instrumental in shaping this work.
 
